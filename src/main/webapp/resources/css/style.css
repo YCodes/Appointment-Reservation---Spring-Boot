@@ -1,0 +1,49 @@
+h1, .top{
+			text-align: center;
+		}
+.err{
+	color: red;
+	text-align: center;
+}
+.row.appointment-head{
+	margin-top: 10px;
+	background-color: grey;
+}
+.add-form{
+	margin-top: 15px;
+	display: none;
+}
+.cncl-btn{
+	margin-bottom: 10px;
+}
+.top{
+	margin-left:auto;
+	margin-right:auto;
+	width:20%;
+	
+}
+.add-form label {
+    margin-right: 20px;
+    float: left;
+}
+input#datepicker {
+    /* float: left; */
+    margin-left: 0;
+}
+input#time {
+    margin-left: -48px;
+}
+input#desc {
+    margin-left: 29px;
+}
+.container.appointment-area {
+    background-color: #212529;
+    color: white;
+}
+.container.appointment-area .row .appointment-head, .container.appointment-area .col-sm-4 {
+    border-color: #32383e;
+    border-bottom: 2px solid #dee2e6;
+}
+.container.appointment-area .row{
+    height: 40px;
+}
